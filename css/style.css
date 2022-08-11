@@ -1,4 +1,4 @@
-@import url('https//fonts.googleapis.com/css2?family=Oxanium:whgt@300;400;500;600;700;800;&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
 
 * {
     margin: 0;
@@ -19,9 +19,9 @@ main {
 }
 
 .pokedex {
-    width: 95%;
-    height: 95%;
-    max-width: 420px;
+    width: 100%;
+    height: 100%;
+    max-width: 425px;
 }
 
 .pokemon-image {
@@ -29,4 +29,17 @@ main {
     bottom: 55%; left: 50%;
     transform: translate(-63%, 20%);
     height: 18%;
+}
+
+.pokemon-data {
+    position: absolute;
+    font-weight: 600;
+    color: #aaa;
+    top: 54.5%;
+    right: 27%;
+    font-size: clamp(8px, 5vw, 25px);
+}
+
+.pokemon-name {
+    color: #3a444d;
 }
